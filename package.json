@@ -1,0 +1,24 @@
+{
+  "name": "nic",
+  "version": "1.0.0",
+  "description": "assert tool",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zasqw2222/assert.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zasqw2222/assert/issues"
+  },
+  "homepage": "https://github.com/zasqw2222/assert#readme"
+}

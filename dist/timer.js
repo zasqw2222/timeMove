@@ -1,0 +1,1 @@
+var timers={timerID:0,timers:[],add:function(t){this.timers.push(t)},stop:function(){clearTimeout(this.timerID),this.timerID=0},start:function(){this.timerID||!function t(){if(timers.timers.length>0){for(var i=0;i<timers.timers.length;i++)timers.timers[i]()===!1&&(timers.timers.splice(i,1),i--);timers.timerID=setTimeout(t,0)}}()}};
